@@ -30,6 +30,7 @@ def kysy_luku_valilta(ALA, YLA):
             print("Annoit kirjaimen!")
         else:
             return kysy
+            print("Jeejee")
 
 def main():
     ALA = 1
@@ -37,6 +38,5 @@ def main():
     luku = 0
     luku = kysy_luku_valilta(ALA, YLA)
     print(f"Luvun jonka annoit oli {luku}.")
-
-    print("Jeejee")
+    print (f"hello world")
 main()
