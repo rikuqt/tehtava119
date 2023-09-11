@@ -28,6 +28,7 @@ def kysy_luku_valilta(ALA, YLA):
                     kysy = int(input("Anna luku väliltä 1-5: "))
         except:
             print("Annoit kirjaimen!")
+            print("'Vine boom'")
         else:
             return kysy
             print("Jeejee")
